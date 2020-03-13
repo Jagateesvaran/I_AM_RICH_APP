@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
+// https://appicon.co/#app-icon
 void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blueGrey,
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://yt3.ggpht.com/a/AGF-l7-jptKlXqcE6ET07vtXBUPgLAec5QoO3uA3rg=s900-c-k-c0xffffffff-no-rj-mo'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
         appBar: AppBar(
           title: Text('I AM RICH'),
-          backgroundColor: Colors.deepPurpleAccent,
+          backgroundColor: Colors.blueGrey[900],
         ),
       ),
     ),
